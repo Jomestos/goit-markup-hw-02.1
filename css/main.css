@@ -20,6 +20,8 @@ ul{
     list-style: none;
 }
 
+
+
 .section-title{
     font-weight: 700;
     font-size: 36px;
@@ -46,6 +48,10 @@ ul{
     color: black;
 }
 
+.curent.nav-other-pages {
+    color: var(--accent);
+}
+
 .nav-other-pages{
     font-weight: 500;
     font-size: 14px;
@@ -55,6 +61,7 @@ ul{
 }
 
 .header .info{ 
+    font-weight: 500;
     color: var(--secondary-color);
 }
 
@@ -69,6 +76,10 @@ ul{
 }
 
 /* hero */
+
+.hero{
+    background-color: var(--secondary-color);
+}
 
 .hero-title{
     letter-spacing: 0.06em;
